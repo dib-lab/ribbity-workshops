@@ -1,7 +1,7 @@
 ---
-name: YYYY-MM-DD TITLE
-tags:  
-   - workshop
+name: workshop website template
+title: YYYY-MM-DD TITLE
+labels:  ["workshop"]
 ---
 
 <!---
