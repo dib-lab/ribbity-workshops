@@ -1,8 +1,7 @@
 ---
-title: YYYY-MM-DD TITLE
+name: YYYY-MM-DD TITLE
 tags:  
    - workshop
-   - 
 ---
 
 <!---
