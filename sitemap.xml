@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/1-20220323-introduction-to-r-for-rnasequencing-analysis/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/1-20220323-introduction-to-r-for-rnasequencing-analysis/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/2-20220427-introduction-to-r-for-rnaseq-analysis/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/2-20220427-introduction-to-r-for-rnaseq-analysis/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/3-20220510-cfdeihmp-walkthrough/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/3-20220510-cfdeihmp-walkthrough/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/examples/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/examples/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/l-AWS/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/l-AWS/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/l-R/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/l-R/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/l-Snakemake/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/l-Snakemake/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://dib-lab.github.io/ribbity-workshops/labels/</loc>
+         <loc>http://dib-lab.github.io/ribbity-workshops/labels/</loc>
          <lastmod>2022-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
