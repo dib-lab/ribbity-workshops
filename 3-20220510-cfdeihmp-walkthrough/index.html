@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://dib-lab.github.io/ribbity-workshops/3-20220510-cfdeihmp-walkthrough/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Example: 2022-05-10 CFDE/iHMP walkthrough - Data Intensive Biology Workshops</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Data Intensive Biology Workshops</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../examples/" class="nav-link">All examples</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../labels/" class="nav-link">All categories</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#example-2022-05-10-cfdeihmp-walkthrough" class="nav-link">Example: 2022-05-10 CFDE/iHMP walkthrough</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#cfdeihmp-walkthrough-2022-may-cfde-hackathon" class="nav-link">CFDE/iHMP walkthrough - 2022 May CFDE Hackathon</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#using-the-portal-to-find-and-export-file-information" class="nav-link">Using the portal to find and export file information</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#connect-to-your-aws-instanceon-jupyterhub" class="nav-link">Connect to your AWS instance/on JupyterHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#for-exercise-at-end-of-jupyter-notebook" class="nav-link">For exercise at end of Jupyter Notebook:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#ideas-for-thursday-sessions" class="nav-link">Ideas for Thursday sessions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#categories" class="nav-link">Categories</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="example-2022-05-10-cfdeihmp-walkthrough">Example: 2022-05-10 CFDE/iHMP walkthrough</h1>
+<p><em><a href="https://github.com/dib-lab/ribbity-workshops/issues/3">dib-lab/ribbity-workshops#3</a></em></p>
+<hr />
+<!---
+# ribbity formatting
+---
+frontpage = TRUE
+---
+--->
+
+<h1 id="cfdeihmp-walkthrough-2022-may-cfde-hackathon">CFDE/iHMP walkthrough - 2022 May CFDE Hackathon</h1>
+<p><a href="https://hackmd.io/dW9EoOh3T42eed9q21NLJQ"><img alt="hackmd-github-sync-badge" src="https://hackmd.io/dW9EoOh3T42eed9q21NLJQ/badge" /></a></p>
+<p>Permanent link: <a href="https://github.com/ctb/2022-may-cfde-demo/blob/main/DEMO.md">github.com/ctb/2022-may-cfde-demo/DEMO.md</a></p>
+<h2 id="using-the-portal-to-find-and-export-file-information">Using the portal to find and export file information</h2>
+<p>(See <a href="https://hackmd.io/9EWhx5vYR3SDmd1Nl9rpyQ">Jessica and Amanda's tutorial</a> for more detail!)</p>
+<h3 id="create-a-new-personal-collection">Create a new personal collection</h3>
+<p>Go to <a href="https://app.nih-cfde.org/">the CFDE data portal at app.nih-cfde.org/</a>. </p>
+<p>Log in (upper right).</p>
+<p><img alt="" src="https://i.imgur.com/YVXgMVK.png" /></p>
+<p>Under your username (upper right), create a new personal collection. </p>
+<p><img alt="" src="https://i.imgur.com/D2eEXg2.png" /></p>
+<p>For name, you can use "Tuesday demo" or anything else. You can leave description blank.</p>
+<p><img alt="" src="https://i.imgur.com/eNoJFep.png" /></p>
+<h3 id="find-some-files">Find some files</h3>
+<p>Go back to <a href="https://app.nih-cfde.org/">the CFDE data portal main page</a>. </p>
+<p>Select "File" (upper left).</p>
+<p><img alt="" src="https://i.imgur.com/nIlZ2Jw.png" /></p>
+<p>Use the facets on the left to select:
+* Common Fund Program: HMP
+* Project: "Longitudinal multi 'omics"
+* "has persistent ID" - True
+* Uncompressed size in Bytes - 50000000 to 60000000 (50 MB to 60 MB).</p>
+<p><img alt="" src="https://i.imgur.com/7SAZK0X.png" /></p>
+<p><img alt="" src="https://i.imgur.com/9wOPGAY.png" /></p>
+<p>With these selections, the first result should have "Filename" of <code>SRR5935743_1.fastq</code>.</p>
+<p><img alt="" src="https://i.imgur.com/ULbqD7W.png" /></p>
+<h3 id="add-files-to-your-personal-collection">Add files to your personal collection</h3>
+<p>Click on the first result to get a detail view. Then add it to your personal collection:
+* scroll down to "Part of personal collection" and click "Link records."
+* Select your personal collection, click "Link" (upper right).</p>
+<p><img alt="" src="https://i.imgur.com/76nE4vc.png" /></p>
+<p><img alt="" src="https://i.imgur.com/lWWBz0m.png" /></p>
+<p>Click back in your browser, to get back to your filtered search.</p>
+<p>Repeat linking to a collection with the third result (Filename: <code>SRR5950647_1.fastq</code>). Add it to the same personal collection.</p>
+<p><img alt="" src="https://i.imgur.com/aOX8Gz7.png" /></p>
+<p>:::info
+For today, here are the direct links to the two files we'll be using:
+* <a href="https://app.nih-cfde.org/chaise/record/#1/CFDE:file/nid=528892">file 1, <code>SRR5935743_1.fastq</code></a>
+* <a href="https://app.nih-cfde.org/chaise/record/#1/CFDE:file/nid=531342">file 2, <code>SRR5950647_1.fastq</code></a>
+:::</p>
+<p>(Note, you could select any files you like, but these are small enough to work and I know what the results will be. So it's good for today's demo; I suggest trying new/different files as a Thursday exercise!)</p>
+<h3 id="export-your-personal-collection">Export your personal collection</h3>
+<p>Go to your collection, and select "export" and choose "NCPI manifest format."</p>
+<p>:::info
+<strong>What is NCPI?</strong>
+"NCPI" stands for "NIH Cloud Platform Interoperability", an effort by the NIH to convene around interoperation for cloud workbenches.
+:::</p>
+<h3 id="examine-the-ncpi-manifest-file">Examine the NCPI manifest file</h3>
+<p>You should now have a CSV file in your Downloads that, when examined with a spreadsheet program, looks like this:</p>
+<p><img alt="" src="https://hackmd.io/_uploads/HkshxgdLq.png" /></p>
+<p>The key piece of information in here is the <code>drs_uri</code> column, which provides a <a href="https://ga4gh.github.io/data-repository-service-schemas/preview/release/drs-1.0.0/docs/">Data Repository Service</a> location from which to download the files.</p>
+<h2 id="connect-to-your-aws-instanceon-jupyterhub">Connect to your AWS instance/on JupyterHub</h2>
+<p>We've <a href="https://hackmd.io/rrjnYcZ3QemfuDpt82oomw?view">installed some software for you on AWS</a>, and you should receive a Web link to your AWS instance Web site in zoom chat (during today's demo, at least ;).</p>
+<h3 id="log-in-to-jupyterhub">Log in to JupyterHub</h3>
+<p>You should see:</p>
+<p><img alt="" src="https://i.imgur.com/h0mXlZy.png" /></p>
+<p>Use username <code>cfde</code>. (We'll give you the sekret password in Zoom chat.)</p>
+<p>You should now be at a JupyerHub console.</p>
+<p><img alt="" src="https://i.imgur.com/W3o8BlN.png" /></p>
+<h3 id="open-jupyter-notebook">Open Jupyter notebook</h3>
+<p>Go to the <code>demo/</code> folder and open <code>demo-walkthrough.ipynb</code> by clicking on it.</p>
+<p><img alt="" src="https://i.imgur.com/mWTz7DF.png" /></p>
+<p>You can <a href="https://github.com/ctb/2022-may-cfde-demo/blob/main/demo-walkthrough.ipynb">also see a static version of the walkthrough</a>.</p>
+<h2 id="for-exercise-at-end-of-jupyter-notebook">For exercise at end of Jupyter Notebook:</h2>
+<p>This will run through sample SRR5935743_1!</p>
+<pre><code># run a sample against a database with sourmash gather
+# take exactly 5.000 minutes
+!sourmash gather SRR5935743_1.fastq.sig \
+    gtdb-rs207.genomic-reps.dna.k31.zip \
+      -o SRR5935743_1.gather.csv
+
+# run the metacoder taxonomy plot
+!./sourmash_gather_to_metacoder_plot.R \
+    SRR5935743_1.gather.csv \
+    SRR5935743_1.tax.png
+</code></pre>
+<h2 id="ideas-for-thursday-sessions">Ideas for Thursday sessions</h2>
+<p>During the Thursday co-working sessions, we will provide AWS instances with all the software pre-installed.</p>
+<p>Here are two ideas for things to do during that session:</p>
+<ul>
+<li>re-do this analysis!</li>
+<li>do the download and taxonomic analysis with new/different/bigger samples!</li>
+<li>tackle other kinds of metagenome analyses - happy to chat about your interests!</li>
+<li>do same analysis with larger (complete) gtdb database</li>
+</ul>
+<h2 id="categories">Categories</h2>
+<p>This example belongs to the following categories:</p>
+<ul>
+<li><a href="../l-Snakemake/">Snakemake</a></li>
+<li><a href="../l-AWS/">AWS</a></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
