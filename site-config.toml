@@ -8,3 +8,5 @@ add_pages = [ "index.md", "examples.md", "labels.md" ]
 github_username = 'dib-lab'
 
 issues_dump = 'ribbity-docs.dmp'
+
+issue_title_prefix = 'Workshop: '
