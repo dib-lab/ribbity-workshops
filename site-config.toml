@@ -9,8 +9,4 @@ github_username = 'dib-lab'
 
 issues_dump = 'ribbity-docs.dmp'
 
-<<<<<<< HEAD
-issue_title_prefix = 'Workshop: '
-=======
 issue_title_prefix = "Workshop: "
->>>>>>> 5614be29b16bd51a9661ce2f88498c20f320a9cd
