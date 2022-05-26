@@ -1,6 +1,6 @@
 title = "ribbity-workshops"
 site_name = "Data Intensive Biology Workshops"
-site_url = "http://dib-lab.github.io/ribbity-workshops/"
+site_url = "https://dib-lab.github.io/ribbity-workshops/"
 github_repo = "dib-lab/ribbity-workshops"
 
 add_pages = [ "index.md", "examples.md", "labels.md" ]
@@ -9,4 +9,8 @@ github_username = 'dib-lab'
 
 issues_dump = 'ribbity-docs.dmp'
 
+<<<<<<< HEAD
 issue_title_prefix = 'Workshop: '
+=======
+issue_title_prefix = "Workshop: "
+>>>>>>> 5614be29b16bd51a9661ce2f88498c20f320a9cd
